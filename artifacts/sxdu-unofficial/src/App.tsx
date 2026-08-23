@@ -308,7 +308,7 @@ function Home() {
             <div className="join-card reveal">
               <div className="join-icon"><Users size={25} /></div>
               <div><span className="mono">YOUR TURN</span><h3 className="display">Have a moment for the archive?</h3><p>Send us the frame, the result, the tiny story. We’ll give it a place here.</p></div>
-              <button className="primary-action" onClick={() => { window.location.href = 'mailto:sxdu.unofficial@example.com'; }} data-testid="button-submit-moment">Submit a moment <ArrowUpRight size={16} /></button>
+              <button className="primary-action" onClick={() => { window.open('https://www.instagram.com/sxdu_unofficial/', '_blank', 'noopener,noreferrer'); }} data-testid="button-submit-moment">Submit a moment <ArrowUpRight size={16} /></button>
             </div>
           </div>
         </section>
